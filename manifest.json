@@ -1,0 +1,9 @@
+{
+  "id": "dapp-dapp-visible",
+  "name": "Dapp Visibility",
+  "description": "Allow customising the display of the list of applications",
+  "author": "Parity Team <admin@parity.io>",
+  "version": " 2.0.1",
+  "iconUrl": "icon.png",
+  "localUrl": "http://localhost:3001"
+}

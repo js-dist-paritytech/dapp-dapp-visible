@@ -1,0 +1,60 @@
+{
+  "name": "@parity/dapp-dapp-visible",
+  "description": "Dapp visibility",
+  "version": "2.0.1",
+  "main": "src/index.js",
+  "author": "Parity Team <admin@parity.io>",
+  "maintainers": [],
+  "contributors": [],
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paritytech/dapp-dapp-visible.git"
+  },
+  "homepage": "./",
+  "proxy": {
+    "/parity-utils": {
+      "target": "http://127.0.0.1:3000"
+    },
+    "/api": {
+      "target": "http://127.0.0.1:3000"
+    }
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!<rootDir>/node_modules/",
+      "!src/index.js",
+      "!src/registerServiceWorker.js",
+      "!src/setupTests.js"
+    ]
+  },
+  "keywords": [],
+  "scripts": {
+    "start": "react-scripts start",
+    "watch": "node scripts/watch.js",
+    "build": "react-scripts build",
+    "lint": "eslint src/**/*.js",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@parity/api": "^2.1.5",
+    "@parity/ui": "^2.2.15",
+    "mobx": "^3.3.1",
+    "mobx-react": "^4.3.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-intl": "^2.4.0",
+    "react-scripts": "1.0.17",
+    "react-tap-event-plugin": "^3.0.2",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.76.0"
+  },
+  "devDependencies": {
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.0",
+    "enzyme-to-json": "^3.2.2"
+  }
+}
