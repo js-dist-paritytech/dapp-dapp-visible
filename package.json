@@ -1,7 +1,7 @@
 {
   "name": "@parity/dapp-dapp-visible",
   "description": "Dapp visibility",
-  "version": "2.0.38",
+  "version": "2.0.39",
   "main": "src/index.js",
   "author": "Parity Team <admin@parity.io>",
   "maintainers": [],
@@ -44,7 +44,7 @@
     "mobx-react": "^4.4.3",
     "prop-types": "^15.7.2",
     "react": "^16.8.5",
-    "react-dom": "^16.8.4",
+    "react-dom": "^16.8.5",
     "react-intl": "^2.8.0",
     "react-scripts": "1.0.17",
     "semantic-ui-css": "^2.4.1",
