@@ -1,7 +1,7 @@
 {
   "name": "@parity/dapp-dapp-visible",
   "description": "Dapp visibility",
-  "version": "2.0.60",
+  "version": "2.0.61",
   "main": "src/index.js",
   "author": "Parity Team <admin@parity.io>",
   "maintainers": [],
@@ -53,6 +53,6 @@
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
-    "enzyme-to-json": "^3.4.2"
+    "enzyme-to-json": "^3.4.3"
   }
 }
